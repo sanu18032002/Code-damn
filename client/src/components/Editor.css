@@ -1,0 +1,28 @@
+.editor {
+  padding: 0 10px 10px 10px;
+  background-color: #000;
+  width: 100%;
+  height: 100vh;
+}
+.select-file {
+  padding: 0px 0 0 10px;
+  background-color: #111;
+}
+.fa-icon-btn {
+  padding-right: 5px;
+}
+.file-btn {
+  border: 1px solid black;
+}
+.btn-selected {
+  background-color: #454545 !important;
+  border-right: 2px solid black !important;
+  color: white !important;
+  margin: 0;
+}
+.btn-not-selected {
+  background-color: #232323 !important;
+  border-right: 2px solid black !important;
+  color: white !important;
+  margin: 0;
+}

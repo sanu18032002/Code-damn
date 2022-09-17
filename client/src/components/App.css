@@ -1,0 +1,55 @@
+.reflex-splitter:hover {
+  background: #14b3ff;
+}
+.reflex-splitter-vertical {
+  border-color: #6e6e6e !important;
+  height: 100vh !important ;
+  background-color: #6e6e6e !important;
+  width: 3px !important;
+}
+.reflex-splitter-vertical:hover {
+  border-color: #14b3ff !important;
+  background-color: #14b3ff !important;
+  width: 5px !important;
+}
+.reflex-splitter-horizontal {
+  border-color: #6e6e6e !important;
+  background-color: #6e6e6e !important;
+  height: 2px !important;
+}
+.reflex-splitter-horizontal:hover {
+  border-color: #14b3ff !important;
+  background-color: #14b3ff !important;
+  height: 4px !important;
+}
+
+.html-div {
+  height: 100vh !important;
+  background-color: #fff;
+}
+
+.all-components::-webkit-scrollbar {
+  display: none;
+}
+
+.editor-div::-webkit-scrollbar {
+  display: none;
+}
+.editor-terminal-div::-webkit-scrollbar {
+  display: none;
+}
+.terminal-div::-webkit-scrollbar {
+  display: none;
+}
+.html-div::-webkit-scrollbar {
+  display: none;
+}
+
+.xterm-viewport::-webkit-scrollbar {
+  display: none;
+}
+.reflex-container > .reflex-splitter.active,
+.reflex-container > .reflex-splitter:hover {
+  background-color: #c6c6c6;
+  transition: 0.1s linear !important;
+}

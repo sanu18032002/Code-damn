@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+/*codedamn color:#ff5349*/
+.navbar {
+  background-color: #000;
+  padding: 10px 0px 0px 15px;
+  margin-bottom: 1px;
+}
+.codedamn-logo {
+  height: 40px;
+  margin-right: 5px;
+}
+.title {
+  color: #fff;
+  font-size: 300%;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
